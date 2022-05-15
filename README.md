@@ -2,9 +2,9 @@
 
 ## ADD YOUR DETAILS HERE
 
-$mail->Host = 'smtp.gmail.com';                       //Sets the SMTP hosts of your Email hosting, this for Godaddy
+$mail->Host = 'smtp.gmail.com';                      # Sets the SMTP hosts of your Email hosting, this for Godaddy
 
-$mail->Port = '465';                                  //Sets the default SMTP server port
+$mail->Port = '465';                                 # Sets the default SMTP server port
 
 $mail->SMTPAuth = true;                               //Sets SMTP authentication. Utilizes the Username and Password variables
 
