@@ -1,6 +1,4 @@
-# php-sentmail-code
-
-## ADD YOUR DETAILS HERE
+# ADD YOUR DETAILS HERE
 
 ### Sets the SMTP hosts of your Email hosting, this for Godaddy
 $mail->Host = 'smtp.gmail.com';                      
