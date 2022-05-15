@@ -2,20 +2,29 @@
 
 ## ADD YOUR DETAILS HERE
 
-$mail->Host = 'smtp.gmail.com';                      # Sets the SMTP hosts of your Email hosting, this for Godaddy
+### Sets the SMTP hosts of your Email hosting, this for Godaddy
+$mail->Host = 'smtp.gmail.com';                      
 
-$mail->Port = '465';                                 # Sets the default SMTP server port
+### Sets the default SMTP server port
+$mail->Port = '465';                                 
 
-$mail->SMTPAuth = true;                               //Sets SMTP authentication. Utilizes the Username and Password variables
+### Sets SMTP authentication. Utilizes the Username and Password variables
+$mail->SMTPAuth = true;                               
 
-$mail->Username = 'example@gmail.com';                //Sets SMTP username
+### Sets SMTP username
+$mail->Username = 'example@gmail.com';                
 
-$mail->Password = 'Example@12345';                    //Sets SMTP password
+### Sets SMTP password
+$mail->Password = 'Example@12345';                    
 
-$mail->SMTPSecure = 'ssl';                            //Sets connection prefix. Options are "", "ssl" or "tls"
+### Sets connection prefix. Options are "", "ssl" or "tls"
+$mail->SMTPSecure = 'ssl';                            
 
-$mail->From = 'example@gmail.com';                    //Sets the From email address for the message
+### Sets the From email address for the message
+$mail->From = 'example@gmail.com';                    
 
-$mail->FromName = 'Example';                          //Sets the From name of the message
+### Sets the From name of the message
+$mail->FromName = 'Example';                         
 
-$mail->AddAddress('testmail@gmail.com', 'Example');   //Adds a "To" address
+### Adds a "To" address
+$mail->AddAddress('testmail@gmail.com', 'Example');   
